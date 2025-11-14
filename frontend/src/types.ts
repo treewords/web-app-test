@@ -34,6 +34,8 @@ export interface Order {
   total: number;
   status: string;
   items: OrderItem[];
+  user: User;
+  createdAt: string;
 }
 
 export interface OrderItem {
